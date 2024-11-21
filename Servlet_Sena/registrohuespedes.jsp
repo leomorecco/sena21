@@ -5,7 +5,7 @@
   <title>Control  Registro</title>
 </head>
 <body>
-<h1>Control SENA rama</h1>
+<h1>Control SENA rama feat1</h1>
 <ul>
   <c:forEach var="registrohuespedes" items="${Registrohuespedes}">
     <li>${registrohuespedes.ID_Reserva} ${registrohuespedes.Cedula} ${registrohuespedes.Nombre_completo}</li>
