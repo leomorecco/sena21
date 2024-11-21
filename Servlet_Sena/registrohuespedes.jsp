@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h1>Control SENA rama feat1</h1>
+<h1>Control SENA rama feat2</h1>
 
 <ul>
   <c:forEach var="registrohuespedes" items="${Registrohuespedes}">
