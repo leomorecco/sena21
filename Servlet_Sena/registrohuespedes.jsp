@@ -2,10 +2,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>Control de Registro Huespedes</title>
+  <title>Control de Registro</title>
 </head>
 <body>
-<h1>Control de Registro Huespedes</h1>
+<h1>Control de Registro</h1>
 <ul>
   <c:forEach var="registrohuespedes" items="${Registrohuespedes}">
     <li>${registrohuespedes.ID_Reserva} ${registrohuespedes.Cedula} ${registrohuespedes.Nombre_completo}</li>
